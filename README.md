@@ -4,11 +4,5 @@ Quick Python script that takes an image and returns a cropped, "scanned" copy. B
 Run "python scanner.py -h" for help text
 
 
-Dependencies:
-
-opencv-contrib-python\n
-
-numpy
-
-imutils
+Dependencies: opencv-contrib-python, numpy, and imutils
 
