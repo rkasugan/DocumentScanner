@@ -43,7 +43,7 @@ def four_corner_transform(img, in_pts):
     return transformed_img
 
 
-# argument parser for path to image
+# argument parser
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required = True, help = "Path to image")
 ap.add_argument("-d", "--debug", required = False, action = "store_true", help = "Output debug pics")
